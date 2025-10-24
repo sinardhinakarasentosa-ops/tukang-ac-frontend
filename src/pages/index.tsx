@@ -1,7 +1,9 @@
+import { NavigationMenuHeader } from "@/components/layouts/navigation-menu-header";
+
 export default function Home() {
   return (
-    <div>
-      <p>Hallo</p>
-    </div>
+    <main>
+      <NavigationMenuHeader />
+    </main>
   );
 }
